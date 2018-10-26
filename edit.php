@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Input</title>
-	<link rel="stylesheet" type="text/css" href="yagitu.css">
+	<title>Database</title>
+	<link rel="stylesheet" type="text/css" href="sayang.css">
 </head>
-<body> 
-	<div class="judulnya">
-		<h2><center>INPUT DATABASE</center></h2>
+<body>
+	<div class="judul">
+		<h2>Edit data pada database</h2>
 	</div>
+	<br/>
 
 	<section id="input-form">
-		<form action="hoki.php" method="post">
+		<form action="coba.php" method="post">
 			<div class="form">
 				<label>Id</label>
 				<input type="text" name="id">
@@ -38,6 +39,5 @@
 			</div>
 		</form>
 	</section>
-
 </body>
 </html>
