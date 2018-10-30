@@ -6,12 +6,12 @@
 </head>
 <body>
 	<div class="judul">
-		<h2>Edit data pada database</h2>
+		<h2><font color=white >Edit Data Pada Database</font></h2>
 	</div>
 	<br/>
 
 	<section id="input-form">
-		<form action="coba.php" method="post">
+		<form action="hoki.php" method="post">
 			<div class="form">
 				<label>Id</label>
 				<input type="text" name="id">
@@ -32,7 +32,10 @@
 				<label>Fullname</label>
 				<input type="text" name="fullname">
 			</div>
-			<a href="index.php">Lihat Semua Data</a>
+			<div class="link">
+				<a href="index.php" >Lihat Semua Data</a>
+			</div>
+			
 			<div class="form">
 				<input type="submit" name="submit"
 				value="SUBMIT" class="bg-blue">

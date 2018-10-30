@@ -1,9 +1,151 @@
+body{
+    background-color: #6a89cc;
+    font-family: 'roboto';
+}
+
+.judul{
+    background: #0c2461;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.judul h1,h2,h3{
+    height: 15px;
+    color: #b33939;
+}
+
+a{
+    /*color: #fff;*/
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+.table{
+    border-collapse: none;
+}
+
+table.table th th , table.table tr td{
+    padding: 10px 20px  ;
+}
+
+table {
+    background-color: #f8a5c2;
+    border-radius: 10px;
+    border-collapse: collapse;
+    width: 80%;
+}
+tr{
+    margin-left: 14%;
+}
+table th{
+    border: 1px solid #000;
+    padding: 2px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(255, 57, 57);
+    color: blue;
+    text-align: center;
+}
 table td{
-	border: 1px solid #000;
+    border: 1px solid #fffa65;
     padding: 2px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: rgb(12, 36, 97);
-    text-align: center;
-    color: white;
+    text-align: left;
+    color: black;
+}
+/*form*/
+section#input-form{
+    position: relative;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    border-radius: 6px;
+    background-color: #0c2461;
+    box-shadow: 0 0 7px 0px rgba(136, 146, 146, 0.2);
+    padding: 30px;
+}
+#input-form .form{
+    width: 100%;
+    display: grid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#input-form .form select{
+    display: inline-block;
+    margin-top: 15px;
+}
+#input-form .form .foto{
+    background-color: blue;
+}
+#input-form .Gender{
+    width: 100%;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 17px;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #8888;
+}
+#input-form .Gender .val {
+    margin-left: 10px;
+    background-color: white;
+}
+#input-form .Skill{
+    width: 100%;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #8888;
+}
+#input-form .Gender .kll {
+    margin-left: 10px;
+    background-color: white;
+}
+#i
+br {
+    margin-top: 3px;
+}
+label{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    color: #6a89cc;
+    font-weight: 600;
+}
+input{
+    font-family: 'Helvetica', sans-serif;
+    padding: 10px 20px 10px 20px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #ffffff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+/*submit button*/
+.bg-blue{
+    background-color:  #6a89cc;
+    color: #0c2461;
+    box-shadow: 0 0 7px 0px #0c2461;
+    border: 1px solid #6a89cc;
+}
+.bg-blue:hover{
+    background-color: #1e3799;
+    color: #fff;
+    box-shadow: 0 0 7px 0px #0c2461;
+    border: 1px solid #1e3799;
+}
+
+.link{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
 }
